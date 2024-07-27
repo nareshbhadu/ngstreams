@@ -1,0 +1,164 @@
+.banner {
+  background: linear-gradient(
+    110deg,
+    rgba(162, 101, 255, 0.3) 4.64%,
+    rgba(255, 156, 170, 0.1) 44.11%,
+    rgba(255, 232, 189, 0.4) 101.69%
+  );
+  background-color: #d2d2d7;
+  .bg1 {
+    background: url("../../Assets/Banner/bannerBG1.png") 0% no-repeat;
+
+    .bg2 {
+      background: url("../../Assets/Banner/bannerBG2.png") 100%
+        no-repeat;
+      padding: 8.333vw 10.533vw 8.333vw 14.333vw;
+      .banner-container {
+        display: flex;
+        margin: 1rem 0rem;
+        img {
+          width: 34.556vw;
+          height: 55.194vw;
+        }
+        .banner-info {
+          margin-top: 1.389vw;
+          color: black;
+          padding: 2rem;
+
+          .banner-header {
+            margin-left: 2vw;
+
+            h1 {
+              font-family: "Inter", sans-serif;
+              font-size: 1.667vw;
+              font-weight: 700;
+              line-height: 1rem;
+            }
+
+            h4 {
+              font-family: "Inter", sans-serif;
+              font-size: 1.111vw;
+              font-weight: 500;
+              margin-top: 1rem;
+            }
+
+            .text-gradient {
+              font-weight: 800;
+              font-family: "Inter", sans-serif;
+              background: var(--text-gradient-light);
+              background-clip: text;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              font-size: 1.111vw;
+            }
+          }
+
+          .banner-items {
+            margin-top: 2vw;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .banner-item {
+              margin: 0.75vw;
+              padding: 1vw;
+              width: 16.8vw;
+              h4 {
+                width: max-content;
+                font-family: "Inter", sans-serif;
+                font-size: 1.111vw;
+                font-weight: 700;
+                margin-bottom: 1.111vw;
+              }
+
+              p {
+                color: #1c2739;
+                font-family: "Inter", sans-serif;
+                font-size: 0.972vw;
+                font-weight: 400;
+              }
+
+              hr {
+                border-bottom: 0.5px solid #d2d2d7;
+                margin-top: 0.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* 
+@media screen and (max-width: 600px) {
+  .banner .bg1 .bg2 {
+    padding: 15.459vw 0 !important;
+    .banner-container {
+      display: block !important;
+      margin: 0 0 !important;
+      img {
+        background: url("../../Assets/Banner/banner_phone.png");
+        margin: 0 4.831vw !important;
+        width: 90.338vw;
+        height: 68.599vw;
+        border-radius: 1.932vw;
+        object-fit: cover;
+      }
+      .banner-info {
+        margin-left: 4.831vw !important;
+        margin-top: 5.797vw !important;
+        padding: 0 !important;
+        .banner-header {
+          margin-left: 0 !important;
+          h1 {
+            font-size: 5.797vw !important;
+            line-height: 7.415vw !important;
+          }
+          h4 {
+            margin-top: 2.415vw !important;
+            font-size: 3.865vw !important;
+          }
+          .text-gradient {
+            font-size: 3.865vw;
+          }
+        }
+        .banner-items {
+          margin-top: 5.797vw !important;
+          display: -webkit-box !important;
+          margin-bottom: 6.237vw;
+          .banner-item {
+            background-color: white;
+            margin: 0 1.932vw 0 0 !important;
+            width: 68.116vw;
+            height: 36.232vw;
+            border-radius: 8px;
+            box-shadow: 0px 4px #d2d2d7;
+            padding: 5.797vw;
+            h4 {
+              font-size: 3.865vw;
+              margin-bottom: 3.865vw;
+            }
+            p {
+              font-size: 3.382vw;
+            }
+            hr {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.banner-container {
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    width: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 601px) {
+  .bg2 {
+    padding: 8.333vw 7 rem;
+  }
+} */

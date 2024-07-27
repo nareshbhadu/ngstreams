@@ -1,0 +1,76 @@
+.pform {
+    padding: 8.33vw 5.556vw;
+    background: #F5F5F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.333vw;
+
+    .fheader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.556vw;
+        .fhead1 {
+            font-size: 1.667vw;
+        }
+        .fhead2 {
+            font-size: 1.111vw;
+        }
+    }
+    .form-cont {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        width: 72.222vw;
+        /* height: 37.431vw; */
+        .input-sec {
+            align-self: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+            gap: 1.667vw;
+            input {
+                /* width: 30vw; */
+                height: 2vw;
+                font-size: 1.389vw;
+                padding: 1.667vw;
+                border: solid 1px;
+            }
+        }
+
+        textarea {
+            font-size: 1.389vw;
+            padding: 1.667vw;
+            height: 12vw;
+            border: solid 1px;
+        }
+
+        label {
+            display: flex;
+            /* width: 40%; */
+            
+            gap: 1.111vw;
+
+            input {
+                align-self: flex-start;
+                border: solid 1px;
+            }
+
+            div {
+                width: 40%;
+                font-size: 1.111vw;
+                span {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .submit-btn {
+            width: 15vw;
+            font-size: 1.389vw;
+            padding: 1vw;
+            border: none;
+        }
+    }
+}
